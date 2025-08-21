@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>HUTOJ</title>
+  <style>
+    :root {
+      --gray: #cfcfcf;
+      --text: #333;
+      --muted: #888;
+      --radius: 16px;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: 40px 16px;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC",
+                   "Hiragino Sans GB", "Noto Sans CJK SC", "Microsoft YaHei", "Helvetica Neue",
+                   Arial, sans-serif;
+      color: var(--text);
+      background: #fafafa;
+    }
+    .card {
+      width: 800px;
+      max-width: 100%;
+      margin: 0 auto;
+      border: 1px solid var(--gray);
+      border-radius: var(--radius);
+      background: #fff;
+      padding: 28px 24px 32px;
+      text-align: center;
+    }
+    .card img {
+      display: block;
+      width: 20%;
+      max-width: 200px; /* 限制过大屏时的最大宽度 */
+      height: auto;
+      margin: 4px auto 16px;
+    }
+    .message {
+      line-height: 1.75;
+      font-size: 16px;
+    }
+    .copyright {
+      margin-top: 14px;
+      text-align: center;
+      color: var(--muted);
+      font-size: 12px;
+    }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <img src="/hutoj_logo_big.png" alt="HUTOJ" />
+    <p class="message">
+      <big>404</big>
+    </p>
+    <p class="message">
+      你所请求的页面不存在。
+    </p>
+    <p class="message">
+      HUTOJ 目前正在申请 ICP 备案，暂时不能访问。具体开放时间请关注 QQ 群内通知：682814418。
+    </p>
+  </main>
+
+  <div class="copyright">HUTOJ ©2025 All rights reserved</div>
+</body>
+</html>
